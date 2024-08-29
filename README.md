@@ -1,7 +1,7 @@
 # Nillion Verifier
 ## Install Bahan
 ```
-wget https://raw.githubusercontent.com/sipalingnode/nillion/main/nillion.sh && chmod +x nillion.sh && ./nillion.sh && rm nillon.sh
+wget https://raw.githubusercontent.com/sipalingnode/nillion/main/nillion.sh && chmod +x nillion.sh && ./nillion.sh
 ```
 ## Backup Wallet (Backup Private Key, Address & Pubkey)
 ```
