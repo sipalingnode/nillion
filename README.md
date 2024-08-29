@@ -1,3 +1,7 @@
+<p align="center">
+  <img height="300" height="auto" src="https://user-images.githubusercontent.com/109174478/209359981-dc19b4bf-854d-4a2a-b803-2547a7fa43f2.jpg">
+</p>
+
 # Nillion Verifier
 ## Install Bahan
 ```
