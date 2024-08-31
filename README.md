@@ -21,7 +21,7 @@ sudo cat /root/nillion/accuser/credentials.json
 - Done. Tinggal nunggu sinkron kisaran 30 Menit sampe 60 Menit
 ## Run Node
 ```
-docker run -v ./nillion/accuser:/var/tmp nillion/retailtoken-accuser:v1.0.0 accuse --rpc-endpoint "https://testnet-nillion-rpc.lavenderfive.com" --block-start 5133073
+docker run -v ./nillion/accuser:/var/tmp nillion/retailtoken-accuser:v1.0.0 accuse --rpc-endpoint "https://testnet-nillion-rpc.lavenderfive.com" --block-start 5199326
 ```
 ## Check Logs Node
 ```
