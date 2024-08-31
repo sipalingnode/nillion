@@ -20,9 +20,19 @@ sudo cat /root/nillion/accuser/credentials.json
 - Verifikasi dan Approve
 - Done. Tinggal nunggu sinkron kisaran 30 Menit sampe 60 Menit
 ## Run Node
+
+```
+sudo apt-get install screen
+sudo ufw allow ssh
+sudo ufw enable
+```
+```
+screen -S nillion
+```
 ```
 docker run -v ./nillion/accuser:/var/tmp nillion/retailtoken-accuser:v1.0.0 accuse --rpc-endpoint "https://testnet-nillion-rpc.lavenderfive.com" --block-start 5199326
 ```
+**Kalo dah jalan langsung aja CTRL + AD. Tinggal nunggu sinkron di web verifier**
 ## Check Logs Node
 ```
 docker logs -f $(docker ps | grep nillion | awk '{print $NF}') --tail 100 | grep -E "Registered:|Secret"
